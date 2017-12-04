@@ -1,14 +1,13 @@
 总体来说需要两部分：
 
 1. protocol buffer 的命令包，用来将 .proto 文件生成指定的 .h 和 .m 文件
-2. - 命令包的获取方式
-   - - 手动编译，进入刚 protobuf 执行  $ objectivec/DevTools/full_mac_build.sh 命令生成 src/目录，里面就有各种目录。
-     - 直接获取，其实就是下面步骤里的方法，
-     - - brew install automake & brew install libtool  & brew install protobuf
-       - ln -s /usr/local/Cellar/protobuf/2.6.1/bin/protoc /usr/local/bin.
-3. 运行时文件，也就是从 github 上 down 下来的 git 仓库，需要将里面 OC 部分拷贝到我们的 Xcode 工程中去。这样序列化生成的.h 和.m 文件。让 protocol buffer 真正运行起来。
-
-- \#Fan's Note# 命令包其实也是 .git 仓库编译出来的，也可以直接下载。
+  - 命令包的获取方式
+  - - 手动编译，进入刚 protobuf 执行  $ objectivec/DevTools/full_mac_build.sh 命令生成 src/目录，里面就有各种目录。
+    - 直接获取，其实就是下面步骤里的方法，
+    - - brew install automake & brew install libtool  & brew install protobuf
+      - ln -s /usr/local/Cellar/protobuf/2.6.1/bin/protoc /usr/local/bin.
+2. 运行时文件，也就是从 github 上 down 下来的 git 仓库，需要将里面 OC 部分拷贝到我们的 Xcode 工程中去。这样序列化生成的.h 和.m 文件。让 protocol buffer 真正运行起来。
+  - #Fan's Note# 命令包其实也是 .git 仓库编译出来的，也可以直接下载。
 
 具体步骤如下:
 
