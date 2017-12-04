@@ -8,6 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		B5583A8F1FD53E470060661A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583A8E1FD53E470060661A /* main.m */; };
+		B5583B751FD5570F0060661A /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B361FD5570A0060661A /* GPBUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B761FD5570F0060661A /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B371FD5570A0060661A /* GPBCodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B771FD5570F0060661A /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B391FD5570A0060661A /* GPBArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B781FD5570F0060661A /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B3B1FD5570A0060661A /* GPBExtensionInternals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B791FD5570F0060661A /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B3E1FD5570B0060661A /* GPBDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B7A1FD5570F0060661A /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B431FD5570B0060661A /* GPBWellKnownTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B7B1FD5570F0060661A /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B4B1FD5570C0060661A /* GPBUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B7C1FD5570F0060661A /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B4F1FD5570C0060661A /* Any.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B7D1FD5570F0060661A /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B511FD5570C0060661A /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B7E1FD5570F0060661A /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B531FD5570C0060661A /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B7F1FD5570F0060661A /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B551FD5570C0060661A /* Empty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B801FD5570F0060661A /* FieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B571FD5570C0060661A /* FieldMask.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B811FD5570F0060661A /* SourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B591FD5570C0060661A /* SourceContext.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B821FD5570F0060661A /* Struct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B5B1FD5570C0060661A /* Struct.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B831FD5570F0060661A /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B5D1FD5570C0060661A /* Timestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B841FD5570F0060661A /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B5F1FD5570C0060661A /* Type.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B851FD5570F0060661A /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B611FD5570C0060661A /* Wrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B861FD5570F0060661A /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B631FD5570C0060661A /* GPBDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B871FD5570F0060661A /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B641FD5570C0060661A /* GPBRootObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B881FD5570F0060661A /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B671FD5570D0060661A /* GPBWireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B891FD5570F0060661A /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B6A1FD5570D0060661A /* GPBMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B8A1FD5570F0060661A /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B6C1FD5570E0060661A /* GPBExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B8C1FD5570F0060661A /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B6E1FD5570E0060661A /* GPBUnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B8D1FD5570F0060661A /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B721FD5570E0060661A /* GPBCodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5583B911FD558D30060661A /* Person.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583B901FD558D30060661A /* Person.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +50,71 @@
 /* Begin PBXFileReference section */
 		B5583A8B1FD53E470060661A /* ProtocolBufferDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProtocolBufferDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5583A8E1FD53E470060661A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5583AA41FD546E50060661A /* Person.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = Person.proto; sourceTree = "<group>"; };
+		B5583B341FD5570A0060661A /* GPBArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBArray.h; path = ProtocolBufferDemo/objectivec/GPBArray.h; sourceTree = SOURCE_ROOT; };
+		B5583B351FD5570A0060661A /* GPBDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor.h; path = ProtocolBufferDemo/objectivec/GPBDescriptor.h; sourceTree = SOURCE_ROOT; };
+		B5583B361FD5570A0060661A /* GPBUnknownField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownField.m; path = ProtocolBufferDemo/objectivec/GPBUnknownField.m; sourceTree = SOURCE_ROOT; };
+		B5583B371FD5570A0060661A /* GPBCodedOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBCodedOutputStream.m; path = ProtocolBufferDemo/objectivec/GPBCodedOutputStream.m; sourceTree = SOURCE_ROOT; };
+		B5583B381FD5570A0060661A /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers_RuntimeSupport.h; path = ProtocolBufferDemo/objectivec/GPBProtocolBuffers_RuntimeSupport.h; sourceTree = SOURCE_ROOT; };
+		B5583B391FD5570A0060661A /* GPBArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = ProtocolBufferDemo/objectivec/GPBArray.m; sourceTree = SOURCE_ROOT; };
+		B5583B3A1FD5570A0060661A /* GPBUnknownField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField.h; path = ProtocolBufferDemo/objectivec/GPBUnknownField.h; sourceTree = SOURCE_ROOT; };
+		B5583B3B1FD5570A0060661A /* GPBExtensionInternals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionInternals.m; path = ProtocolBufferDemo/objectivec/GPBExtensionInternals.m; sourceTree = SOURCE_ROOT; };
+		B5583B3C1FD5570B0060661A /* GPBCodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream.h; path = ProtocolBufferDemo/objectivec/GPBCodedInputStream.h; sourceTree = SOURCE_ROOT; };
+		B5583B3D1FD5570B0060661A /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBWellKnownTypes.h; path = ProtocolBufferDemo/objectivec/GPBWellKnownTypes.h; sourceTree = SOURCE_ROOT; };
+		B5583B3E1FD5570B0060661A /* GPBDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBDescriptor.m; path = ProtocolBufferDemo/objectivec/GPBDescriptor.m; sourceTree = SOURCE_ROOT; };
+		B5583B3F1FD5570B0060661A /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBCodedInputStream_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B401FD5570B0060661A /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBMessage_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBMessage_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B411FD5570B0060661A /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B421FD5570B0060661A /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBDescriptor_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B431FD5570B0060661A /* GPBWellKnownTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBWellKnownTypes.m; path = ProtocolBufferDemo/objectivec/GPBWellKnownTypes.m; sourceTree = SOURCE_ROOT; };
+		B5583B441FD5570B0060661A /* GPBDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBDictionary.h; path = ProtocolBufferDemo/objectivec/GPBDictionary.h; sourceTree = SOURCE_ROOT; };
+		B5583B451FD5570B0060661A /* GPBExtensionInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBExtensionInternals.h; path = ProtocolBufferDemo/objectivec/GPBExtensionInternals.h; sourceTree = SOURCE_ROOT; };
+		B5583B461FD5570B0060661A /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBRootObject_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBRootObject_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B471FD5570B0060661A /* GPBWireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBWireFormat.h; path = ProtocolBufferDemo/objectivec/GPBWireFormat.h; sourceTree = SOURCE_ROOT; };
+		B5583B481FD5570B0060661A /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUtilities_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBUtilities_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B491FD5570B0060661A /* GPBRootObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBRootObject.h; path = ProtocolBufferDemo/objectivec/GPBRootObject.h; sourceTree = SOURCE_ROOT; };
+		B5583B4A1FD5570B0060661A /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBRuntimeTypes.h; path = ProtocolBufferDemo/objectivec/GPBRuntimeTypes.h; sourceTree = SOURCE_ROOT; };
+		B5583B4B1FD5570C0060661A /* GPBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBUtilities.m; path = ProtocolBufferDemo/objectivec/GPBUtilities.m; sourceTree = SOURCE_ROOT; };
+		B5583B4E1FD5570C0060661A /* Any.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Any.pbobjc.h; sourceTree = "<group>"; };
+		B5583B4F1FD5570C0060661A /* Any.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Any.pbobjc.m; sourceTree = "<group>"; };
+		B5583B501FD5570C0060661A /* Api.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
+		B5583B511FD5570C0060661A /* Api.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Api.pbobjc.m; sourceTree = "<group>"; };
+		B5583B521FD5570C0060661A /* Duration.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duration.pbobjc.h; sourceTree = "<group>"; };
+		B5583B531FD5570C0060661A /* Duration.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duration.pbobjc.m; sourceTree = "<group>"; };
+		B5583B541FD5570C0060661A /* Empty.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empty.pbobjc.h; sourceTree = "<group>"; };
+		B5583B551FD5570C0060661A /* Empty.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empty.pbobjc.m; sourceTree = "<group>"; };
+		B5583B561FD5570C0060661A /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldMask.pbobjc.h; sourceTree = "<group>"; };
+		B5583B571FD5570C0060661A /* FieldMask.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldMask.pbobjc.m; sourceTree = "<group>"; };
+		B5583B581FD5570C0060661A /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceContext.pbobjc.h; sourceTree = "<group>"; };
+		B5583B591FD5570C0060661A /* SourceContext.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceContext.pbobjc.m; sourceTree = "<group>"; };
+		B5583B5A1FD5570C0060661A /* Struct.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Struct.pbobjc.h; sourceTree = "<group>"; };
+		B5583B5B1FD5570C0060661A /* Struct.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Struct.pbobjc.m; sourceTree = "<group>"; };
+		B5583B5C1FD5570C0060661A /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		B5583B5D1FD5570C0060661A /* Timestamp.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timestamp.pbobjc.m; sourceTree = "<group>"; };
+		B5583B5E1FD5570C0060661A /* Type.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.pbobjc.h; sourceTree = "<group>"; };
+		B5583B5F1FD5570C0060661A /* Type.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.pbobjc.m; sourceTree = "<group>"; };
+		B5583B601FD5570C0060661A /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrappers.pbobjc.h; sourceTree = "<group>"; };
+		B5583B611FD5570C0060661A /* Wrappers.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wrappers.pbobjc.m; sourceTree = "<group>"; };
+		B5583B621FD5570C0060661A /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBArray_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBArray_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B631FD5570C0060661A /* GPBDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBDictionary.m; path = ProtocolBufferDemo/objectivec/GPBDictionary.m; sourceTree = SOURCE_ROOT; };
+		B5583B641FD5570C0060661A /* GPBRootObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBRootObject.m; path = ProtocolBufferDemo/objectivec/GPBRootObject.m; sourceTree = SOURCE_ROOT; };
+		B5583B651FD5570C0060661A /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream.h; path = ProtocolBufferDemo/objectivec/GPBCodedOutputStream.h; sourceTree = SOURCE_ROOT; };
+		B5583B661FD5570D0060661A /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers.h; path = ProtocolBufferDemo/objectivec/GPBProtocolBuffers.h; sourceTree = SOURCE_ROOT; };
+		B5583B671FD5570D0060661A /* GPBWireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBWireFormat.m; path = ProtocolBufferDemo/objectivec/GPBWireFormat.m; sourceTree = SOURCE_ROOT; };
+		B5583B681FD5570D0060661A /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBDictionary_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBDictionary_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B691FD5570D0060661A /* GPBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBMessage.h; path = ProtocolBufferDemo/objectivec/GPBMessage.h; sourceTree = SOURCE_ROOT; };
+		B5583B6A1FD5570D0060661A /* GPBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBMessage.m; path = ProtocolBufferDemo/objectivec/GPBMessage.m; sourceTree = SOURCE_ROOT; };
+		B5583B6B1FD5570D0060661A /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBCodedOutputStream_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B6C1FD5570E0060661A /* GPBExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionRegistry.m; path = ProtocolBufferDemo/objectivec/GPBExtensionRegistry.m; sourceTree = SOURCE_ROOT; };
+		B5583B6E1FD5570E0060661A /* GPBUnknownFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownFieldSet.m; path = ProtocolBufferDemo/objectivec/GPBUnknownFieldSet.m; sourceTree = SOURCE_ROOT; };
+		B5583B6F1FD5570E0060661A /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet.h; path = ProtocolBufferDemo/objectivec/GPBUnknownFieldSet.h; sourceTree = SOURCE_ROOT; };
+		B5583B701FD5570E0060661A /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBExtensionRegistry.h; path = ProtocolBufferDemo/objectivec/GPBExtensionRegistry.h; sourceTree = SOURCE_ROOT; };
+		B5583B711FD5570E0060661A /* GPBBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBBootstrap.h; path = ProtocolBufferDemo/objectivec/GPBBootstrap.h; sourceTree = SOURCE_ROOT; };
+		B5583B721FD5570E0060661A /* GPBCodedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBCodedInputStream.m; path = ProtocolBufferDemo/objectivec/GPBCodedInputStream.m; sourceTree = SOURCE_ROOT; };
+		B5583B731FD5570E0060661A /* GPBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = ProtocolBufferDemo/objectivec/GPBUtilities.h; sourceTree = SOURCE_ROOT; };
+		B5583B741FD5570E0060661A /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField_PackagePrivate.h; path = ProtocolBufferDemo/objectivec/GPBUnknownField_PackagePrivate.h; sourceTree = SOURCE_ROOT; };
+		B5583B8F1FD558D30060661A /* Person.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.pbobjc.h; sourceTree = "<group>"; };
+		B5583B901FD558D30060661A /* Person.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.pbobjc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +133,7 @@
 			children = (
 				B5583A8D1FD53E470060661A /* ProtocolBufferDemo */,
 				B5583A8C1FD53E470060661A /* Products */,
+				B5583B231FD5559E0060661A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +148,122 @@
 		B5583A8D1FD53E470060661A /* ProtocolBufferDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B5583B8E1FD558D30060661A /* protobufclass */,
 				B5583A8E1FD53E470060661A /* main.m */,
+				B5583AA51FD54B100060661A /* protobuf */,
+				B5583AA31FD546BD0060661A /* class */,
 			);
 			path = ProtocolBufferDemo;
+			sourceTree = "<group>";
+		};
+		B5583AA31FD546BD0060661A /* class */ = {
+			isa = PBXGroup;
+			children = (
+				B5583AA41FD546E50060661A /* Person.proto */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		B5583AA51FD54B100060661A /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				B5583B4C1FD5570C0060661A /* google */,
+				B5583B621FD5570C0060661A /* GPBArray_PackagePrivate.h */,
+				B5583B341FD5570A0060661A /* GPBArray.h */,
+				B5583B391FD5570A0060661A /* GPBArray.m */,
+				B5583B711FD5570E0060661A /* GPBBootstrap.h */,
+				B5583B3F1FD5570B0060661A /* GPBCodedInputStream_PackagePrivate.h */,
+				B5583B3C1FD5570B0060661A /* GPBCodedInputStream.h */,
+				B5583B721FD5570E0060661A /* GPBCodedInputStream.m */,
+				B5583B6B1FD5570D0060661A /* GPBCodedOutputStream_PackagePrivate.h */,
+				B5583B651FD5570C0060661A /* GPBCodedOutputStream.h */,
+				B5583B371FD5570A0060661A /* GPBCodedOutputStream.m */,
+				B5583B421FD5570B0060661A /* GPBDescriptor_PackagePrivate.h */,
+				B5583B351FD5570A0060661A /* GPBDescriptor.h */,
+				B5583B3E1FD5570B0060661A /* GPBDescriptor.m */,
+				B5583B681FD5570D0060661A /* GPBDictionary_PackagePrivate.h */,
+				B5583B441FD5570B0060661A /* GPBDictionary.h */,
+				B5583B631FD5570C0060661A /* GPBDictionary.m */,
+				B5583B451FD5570B0060661A /* GPBExtensionInternals.h */,
+				B5583B3B1FD5570A0060661A /* GPBExtensionInternals.m */,
+				B5583B701FD5570E0060661A /* GPBExtensionRegistry.h */,
+				B5583B6C1FD5570E0060661A /* GPBExtensionRegistry.m */,
+				B5583B401FD5570B0060661A /* GPBMessage_PackagePrivate.h */,
+				B5583B691FD5570D0060661A /* GPBMessage.h */,
+				B5583B6A1FD5570D0060661A /* GPBMessage.m */,
+				B5583B381FD5570A0060661A /* GPBProtocolBuffers_RuntimeSupport.h */,
+				B5583B661FD5570D0060661A /* GPBProtocolBuffers.h */,
+				B5583B461FD5570B0060661A /* GPBRootObject_PackagePrivate.h */,
+				B5583B491FD5570B0060661A /* GPBRootObject.h */,
+				B5583B641FD5570C0060661A /* GPBRootObject.m */,
+				B5583B4A1FD5570B0060661A /* GPBRuntimeTypes.h */,
+				B5583B741FD5570E0060661A /* GPBUnknownField_PackagePrivate.h */,
+				B5583B3A1FD5570A0060661A /* GPBUnknownField.h */,
+				B5583B361FD5570A0060661A /* GPBUnknownField.m */,
+				B5583B411FD5570B0060661A /* GPBUnknownFieldSet_PackagePrivate.h */,
+				B5583B6F1FD5570E0060661A /* GPBUnknownFieldSet.h */,
+				B5583B6E1FD5570E0060661A /* GPBUnknownFieldSet.m */,
+				B5583B481FD5570B0060661A /* GPBUtilities_PackagePrivate.h */,
+				B5583B731FD5570E0060661A /* GPBUtilities.h */,
+				B5583B4B1FD5570C0060661A /* GPBUtilities.m */,
+				B5583B3D1FD5570B0060661A /* GPBWellKnownTypes.h */,
+				B5583B431FD5570B0060661A /* GPBWellKnownTypes.m */,
+				B5583B471FD5570B0060661A /* GPBWireFormat.h */,
+				B5583B671FD5570D0060661A /* GPBWireFormat.m */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		B5583B231FD5559E0060661A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5583B4C1FD5570C0060661A /* google */ = {
+			isa = PBXGroup;
+			children = (
+				B5583B4D1FD5570C0060661A /* protobuf */,
+			);
+			name = google;
+			path = ProtocolBufferDemo/objectivec/google;
+			sourceTree = SOURCE_ROOT;
+		};
+		B5583B4D1FD5570C0060661A /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				B5583B4E1FD5570C0060661A /* Any.pbobjc.h */,
+				B5583B4F1FD5570C0060661A /* Any.pbobjc.m */,
+				B5583B501FD5570C0060661A /* Api.pbobjc.h */,
+				B5583B511FD5570C0060661A /* Api.pbobjc.m */,
+				B5583B521FD5570C0060661A /* Duration.pbobjc.h */,
+				B5583B531FD5570C0060661A /* Duration.pbobjc.m */,
+				B5583B541FD5570C0060661A /* Empty.pbobjc.h */,
+				B5583B551FD5570C0060661A /* Empty.pbobjc.m */,
+				B5583B561FD5570C0060661A /* FieldMask.pbobjc.h */,
+				B5583B571FD5570C0060661A /* FieldMask.pbobjc.m */,
+				B5583B581FD5570C0060661A /* SourceContext.pbobjc.h */,
+				B5583B591FD5570C0060661A /* SourceContext.pbobjc.m */,
+				B5583B5A1FD5570C0060661A /* Struct.pbobjc.h */,
+				B5583B5B1FD5570C0060661A /* Struct.pbobjc.m */,
+				B5583B5C1FD5570C0060661A /* Timestamp.pbobjc.h */,
+				B5583B5D1FD5570C0060661A /* Timestamp.pbobjc.m */,
+				B5583B5E1FD5570C0060661A /* Type.pbobjc.h */,
+				B5583B5F1FD5570C0060661A /* Type.pbobjc.m */,
+				B5583B601FD5570C0060661A /* Wrappers.pbobjc.h */,
+				B5583B611FD5570C0060661A /* Wrappers.pbobjc.m */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		B5583B8E1FD558D30060661A /* protobufclass */ = {
+			isa = PBXGroup;
+			children = (
+				B5583B8F1FD558D30060661A /* Person.pbobjc.h */,
+				B5583B901FD558D30060661A /* Person.pbobjc.m */,
+			);
+			path = protobufclass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +323,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5583B8A1FD5570F0060661A /* GPBExtensionRegistry.m in Sources */,
+				B5583B7D1FD5570F0060661A /* Api.pbobjc.m in Sources */,
+				B5583B751FD5570F0060661A /* GPBUnknownField.m in Sources */,
 				B5583A8F1FD53E470060661A /* main.m in Sources */,
+				B5583B8C1FD5570F0060661A /* GPBUnknownFieldSet.m in Sources */,
+				B5583B801FD5570F0060661A /* FieldMask.pbobjc.m in Sources */,
+				B5583B781FD5570F0060661A /* GPBExtensionInternals.m in Sources */,
+				B5583B911FD558D30060661A /* Person.pbobjc.m in Sources */,
+				B5583B891FD5570F0060661A /* GPBMessage.m in Sources */,
+				B5583B8D1FD5570F0060661A /* GPBCodedInputStream.m in Sources */,
+				B5583B861FD5570F0060661A /* GPBDictionary.m in Sources */,
+				B5583B7E1FD5570F0060661A /* Duration.pbobjc.m in Sources */,
+				B5583B7C1FD5570F0060661A /* Any.pbobjc.m in Sources */,
+				B5583B771FD5570F0060661A /* GPBArray.m in Sources */,
+				B5583B841FD5570F0060661A /* Type.pbobjc.m in Sources */,
+				B5583B761FD5570F0060661A /* GPBCodedOutputStream.m in Sources */,
+				B5583B7A1FD5570F0060661A /* GPBWellKnownTypes.m in Sources */,
+				B5583B851FD5570F0060661A /* Wrappers.pbobjc.m in Sources */,
+				B5583B7B1FD5570F0060661A /* GPBUtilities.m in Sources */,
+				B5583B831FD5570F0060661A /* Timestamp.pbobjc.m in Sources */,
+				B5583B791FD5570F0060661A /* GPBDescriptor.m in Sources */,
+				B5583B871FD5570F0060661A /* GPBRootObject.m in Sources */,
+				B5583B821FD5570F0060661A /* Struct.pbobjc.m in Sources */,
+				B5583B881FD5570F0060661A /* GPBWireFormat.m in Sources */,
+				B5583B811FD5570F0060661A /* SourceContext.pbobjc.m in Sources */,
+				B5583B7F1FD5570F0060661A /* Empty.pbobjc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +463,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3Q47P8R6D;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ProtocolBufferDemo/objectivec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -243,6 +473,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3Q47P8R6D;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ProtocolBufferDemo/objectivec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
